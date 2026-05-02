@@ -13,8 +13,6 @@ const AllPhotosPage = async () => {
 
             <h1 className="text-2xl font-bold m-4">All Photos</h1>
 
-            
-
             <div className="grid grid-cols-4 gap-5">
                 {photos.map(photo=> <PhotoCard key={photo.id} photo={photo}/>)}
             </div>
