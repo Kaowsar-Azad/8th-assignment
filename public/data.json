@@ -1,17 +1,5 @@
 [
-    {
-    "id": 1,
-    "title": " AI",
-    "imageUrl": "https://i.pinimg.com/1200x/04/6a/ef/046aef3824fc35cd1ad0bff0f253619a.jpg",
-    "prompt": "Ultra realistic portrait of a young woman, soft light, 85mm lens, depth of field",
-    "category": "Realistic",
-    "model": "SDXL",
-    "resolution": "768x1024",
-    "likes": 210,
-    "downloads": 54,
-    "createdAt": "2026-04-22T09:00:00Z",
-    "tags": ["portrait", "realistic", "photography", "ai"]
-  },
+    
   {
     "id": 2,
     "title": "Fantasy Dragon World",

@@ -2,7 +2,7 @@ import React from 'react'
 import PhotoCard from './PhotoCard'
 
 const TopGenerations = async() => {
-    const res =await fetch('https://pixgen-eta.vercel.app/data.json')
+    const res = await fetch('https://pixgen-project-x2ts.vercel.app/data.json')
     const photos = await  res.json()
     const topPhotos = photos.slice(0, 8)
   return (
