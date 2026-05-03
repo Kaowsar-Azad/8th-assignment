@@ -53,16 +53,16 @@
   },
   {
     "id": 5,
-    "title": "The Great Gatsby",
-    "author": "F. Scott Fitzgerald",
-    "category": "Classic",
-    "imageUrl": "https://images.unsplash.com/photo-1543004218-ee141104e142?q=80&w=1000&auto=format&fit=crop",
-    "description": "The story of the fabulously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan. This classic novel is a profound study of the American Dream in the 1920s.",
-    "likes": 10500,
-    "downloads": 4200,
-    "rating": 4.6,
-    "publishedDate": "1925-04-10",
-    "tags": ["classic", "literature", "american"]
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "category": "Fantasy",
+    "imageUrl": "https://images.unsplash.com/photo-1629992101753-56d196c8aced?q=80&w=1000&auto=format&fit=crop",
+    "description": "Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely traveling any farther than his pantry or cellar. But his contentment is disturbed when the wizard Gandalf and a company of dwarfs arrive on his doorstep one day.",
+    "likes": 18500,
+    "downloads": 7200,
+    "rating": 4.9,
+    "publishedDate": "1937-09-21",
+    "tags": ["fantasy", "adventure", "classic"]
   },
   {
     "id": 6,
