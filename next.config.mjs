@@ -5,7 +5,16 @@ const nextConfig = {
     remotePatterns:[
       {
         hostname: 'images.unsplash.com'
-      }
+      },
+      {
+        hostname: 'source.unsplash.com'
+      },
+      {
+        hostname: 'i.pinimg.com'
+      },
+      {
+        hostname: '**.ftcdn.net'
+      },
     ]
   }
 };
