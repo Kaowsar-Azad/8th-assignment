@@ -2,17 +2,19 @@ import { betterAuth } from "better-auth";
 import { MongoClient } from "mongodb";
 import { mongodbAdapter } from "better-auth/adapters/mongodb";
 
-const client = new MongoClient(process.env.MONGODB_URL);
-await client.connect();
+const client = new MongoClient(process.env.MONGODB_URL || "mongodb://localhost:27017");
 const db = client.db("pixgen");
 
 export const auth = betterAuth({
   database: mongodbAdapter(db, {
-    // Optional: if you don't provide a client, database transactions won't be enabled.
     client
-    }),
-    emailAndPassword: { 
+  }),
+  emailAndPassword: { 
     enabled: true, 
-  }
+  },
+  baseURL: process.env.BETTER_AUTH_URL || "http://localhost:3000",
+  secret: process.env.BETTER_AUTH_SECRET || "a_very_secret_key_for_build_purposes_only"
 });
+
+
 
