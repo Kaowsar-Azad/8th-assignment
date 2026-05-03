@@ -4,7 +4,7 @@ import PhotoCard from "@/conponents/PhotoCard";
 
 const AllPhotosPage = async () => {
     
-    const res = await fetch('https://pixgen-eta.vercel.app/data.json')
+    const res = await fetch('https://pixgen-project-x2ts.vercel.app/data.json')
     const photos = await res.json()
 
     
