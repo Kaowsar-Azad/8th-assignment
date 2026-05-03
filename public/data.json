@@ -52,15 +52,15 @@
     "tags": ["epic", "space", "classic"]
   },
   {
-    "id": 5,
-    "name": "Smart Watch Series 7",
-    "price": 399.00,
-    "category": "Wearables",
-    "brand": "TechStyle",
-    "stock": 20,
-    "rating": 4.7,
-    "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1000&auto=format&fit=crop",
-    "description": "Stay connected and track your fitness goals with the latest smart watch featuring a stunning always-on display."
+     "id": 5,
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "category": "History",
+    "imageUrl": "https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=1000&auto=format&fit=crop",
+    "description": "From a renowned historian comes a groundbreaking narrative of humanity's creation and evolution.",
+    "rating": 4.8,
+    "publishedDate": "2011-09-04",
+    "tags": ["evolution", "anthropology"]
   },
   {
     "id": 6,
@@ -193,17 +193,15 @@
     "tags": ["education", "memoir", "resilience"]
   },
   {
-    "id": 16,
-    "title": "The Power of Now",
-    "author": "Eckhart Tolle",
-    "category": "Spirituality",
-    "imageUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=1000&auto=format&fit=crop",
-    "description": "A guide to spiritual enlightenment. To make the journey into the Now we will need to leave our analytical mind and its false created self, the ego, behind.",
-    "likes": 11000,
-    "downloads": 3200,
-    "rating": 4.6,
-    "publishedDate": "1997-09-01",
-    "tags": ["mindfulness", "spirituality", "self-help"]
+   "id": 16,
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "category": "Sci-Fi",
+    "imageUrl": "https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=1000&auto=format&fit=crop",
+    "description": "Ryland Grace is the sole survivor on a desperate, last-chance mission.",
+    "rating": 4.9,
+    "publishedDate": "2021-05-04",
+    "tags": ["space", "survival"]
   },
   {
     "id": 17,
@@ -233,28 +231,24 @@
   },
   {
     "id": 19,
-    "title": "Zero to One",
-    "author": "Peter Thiel",
-    "category": "Business",
-    "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1000&auto=format&fit=crop",
-    "description": "Notes on startups, or how to build the future. The next Bill Gates will not build an operating system.",
-    "likes": 10200,
-    "downloads": 3400,
-    "rating": 4.6,
-    "publishedDate": "2014-09-16",
-    "tags": ["technology", "business", "philosophy"]
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "category": "Finance",
+    "imageUrl": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?q=80&w=1000&auto=format&fit=crop",
+    "description": "Doing well with money isn't necessarily about what you know.",
+    "rating": 4.7,
+    "publishedDate": "2020-09-08",
+    "tags": ["investing", "wealth"]
   },
   {
-    "id": 20,
-    "title": "Man's Search for Meaning",
-    "author": "Viktor Frankl",
-    "category": "Psychology",
-    "imageUrl": "https://images.unsplash.com/photo-1530210124550-912dc1381cb8?q=80&w=1000&auto=format&fit=crop",
-    "description": "A psychiatrist's memoir of life in Nazi death camps and its lessons for spiritual survival.",
-    "likes": 18000,
-    "downloads": 5600,
-    "rating": 4.9,
-    "publishedDate": "1946-01-01",
-    "tags": ["survival", "meaning", "holocaust"]
+     "id": 20,
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "category": "Productivity",
+    "imageUrl": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=1000&auto=format&fit=crop",
+    "description": "Deep work is the ability to focus without distraction on a cognitively demanding task.",
+    "rating": 4.6,
+    "publishedDate": "2016-01-05",
+    "tags": ["focus", "work"]
   }
 ]
