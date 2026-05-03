@@ -58,6 +58,8 @@
     "category": "History",
     "imageUrl": "https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=1000&auto=format&fit=crop",
     "description": "From a renowned historian comes a groundbreaking narrative of humanity's creation and evolution.",
+    "likes": 9870,
+    "downloads": 9300,
     "rating": 4.8,
     "publishedDate": "2011-09-04",
     "tags": ["evolution", "anthropology"]
@@ -236,6 +238,8 @@
     "category": "Finance",
     "imageUrl": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?q=80&w=1000&auto=format&fit=crop",
     "description": "Doing well with money isn't necessarily about what you know.",
+    "likes": 6400,
+    "downloads": 5390,
     "rating": 4.7,
     "publishedDate": "2020-09-08",
     "tags": ["investing", "wealth"]
@@ -247,6 +251,8 @@
     "category": "Productivity",
     "imageUrl": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=1000&auto=format&fit=crop",
     "description": "Deep work is the ability to focus without distraction on a cognitively demanding task.",
+    "likes": 4200,
+    "downloads": 3900,
     "rating": 4.6,
     "publishedDate": "2016-01-05",
     "tags": ["focus", "work"]
