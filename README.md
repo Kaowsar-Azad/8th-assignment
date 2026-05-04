@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ Project Name:- BookBound
 
-## Getting Started
+## 🚀 Project Overview
 
-First, run the development server:
+BookBound is a simple book browsing web application where users can explore books, filter them by category, and search by title. Users can also view detailed information about each book.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+This project is built with Next.js and designed as a beginner-friendly full-stack style application using static JSON APIs.
+
+---
+
+## 🎯 Purpose
+
+The main goal of this project is to practice:
+
+* React and Next.js fundamentals
+* Component-based architecture
+* Filtering and searching functionality
+* Handling API data (JSON)
+* Building a clean UI layout
+
+---
+
+## 🌐 Live URL
+
+https://pixgen-project-jade.vercel.app
+
+---
+
+## ✨ Key Features
+
+* 📖 View all books in a grid layout
+* 🔍 Search books by title
+* 🗂️ Filter books by category
+* 📄 View detailed information of each book
+* ⚡ Fast and responsive UI
+* 🎨 Clean and simple design (beginner friendly)
+
+---
+
+## 🛠️ Technologies Used
+
+* Next.js
+* React
+* Tailwind CSS
+* JavaScript (ES6)
+* JSON (Fake API)
+
+---
+
+## 📦 NPM Packages Used
+
+* next
+* react
+* react-dom
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+ ├── app/
+ │    └── all-photos/
+ │         └── page.jsx
+ ├── components/
+ │    ├── Category.jsx
+ │    ├── PhotoCard.jsx
+ │    └── Navbar.jsx
+ └── public/
+      ├── data.json
+      └── category.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## ⚙️ Installation & Run Locally
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+git clone https://github.com/Kaowsar-Azad/8th-assignment
+cd your-repo-name
+npm install
+npm run dev
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📌 Notes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is built for learning purposes and demonstrates basic filtering, searching, and UI handling in Next.js.

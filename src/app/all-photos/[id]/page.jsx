@@ -22,7 +22,7 @@ const Page = ({ params }) => {
   }, [session, isPending, router]);
 
   useEffect(() => {
-    fetch('https://pixgen-project-x2ts.vercel.app/data.json')
+    fetch('/data.json')
       .then((res) => res.json())
       .then((photos) => {
         const p = photos.find((p) => p.id == id);

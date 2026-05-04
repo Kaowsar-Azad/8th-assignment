@@ -12,11 +12,11 @@ const Category = () => {
 
   useEffect(() => {
     const getData = async () => {
-      const c = await fetch("https://pixgen-project-x2ts.vercel.app/category.json");
+      const c = await fetch("/category.json");
       const cData = await c.json();
       setCategories(cData);
 
-      const b = await fetch("https://pixgen-project-x2ts.vercel.app/data.json");
+      const b = await fetch("/data.json");
       const bData = await b.json();
       setBooks(bData);
       setFilteredBooks(bData);
