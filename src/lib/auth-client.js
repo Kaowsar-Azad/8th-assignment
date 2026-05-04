@@ -1,4 +1,4 @@
 import { createAuthClient } from "better-auth/react"
 export const authClient = createAuthClient({
-    baseURL: process.env.NEXT_PUBLIC_BETTER_AUTH_URL // Default to current origin if not set
-})
+    baseURL: "https://pixgen-project-x2ts.vercel.app" // Default to current origin if not set
+})

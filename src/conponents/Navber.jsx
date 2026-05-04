@@ -37,9 +37,6 @@ const Navbar = () => {
             <Link href={"/all-photos"}>All Photos</Link>
           </li>
           <li>
-            <Link href={"/pricing"}>Pricing</Link>
-          </li>
-          <li>
             <Link href={"/profile"}>Profile</Link>
           </li>
         </ul>
