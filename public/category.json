@@ -1,48 +1,72 @@
 [
-  
   {
     "id": 1,
-    "name": "Sci-Fi",
-    "slug": "scifi"
+    "name": "Thriller",
+    "slug": "thriller"
   },
   {
     "id": 2,
-    "name": "Pixel Art",
-    "slug": "pixel-art"
+    "name": "Tech",
+    "slug": "tech"
   },
   {
     "id": 3,
+    "name": "Adventure",
+    "slug": "adventure"
+  },
+  {
+    "id": 4,
+    "name": "Mystery",
+    "slug": "mystery"
+  },
+  {
+    "id": 5,
+    "name": "Dystopian",
+    "slug": "dystopian"
+  },
+  {
+    "id": 6,
+    "name": "Psychology",
+    "slug": "psychology"
+  },
+  {
+    "id": 7,
+    "name": "Sci-Fi",
+    "slug": "sci-fi"
+  },
+  {
+    "id": 8,
+    "name": "Finance",
+    "slug": "finance"
+  },
+  {
+    "id": 9,
+    "name": "History",
+    "slug": "history"
+  },
+  {
+    "id": 10,
     "name": "Fantasy",
     "slug": "fantasy"
   },
   {
-    "id": 4,
-    "name": "Cyberpunk",
-    "slug": "cyberpunk"
+    "id": 11,
+    "name": "Biography",
+    "slug": "biography"
   },
   {
-    "id": 5,
-    "name": "Surreal",
-    "slug": "surreal"
+    "id": 12,
+    "name": "Science",
+    "slug": "science"
   },
   {
-    "id": 6,
-    "name": "Vaporwave",
-    "slug": "vaporwave"
+    "id": 13,
+    "name": "Classic",
+    "slug": "classic"
   },
   {
-    "id": 7,
-    "name": "Realistic",
-    "slug": "realistic"
-  },
-  {
-    "id": 8,
-    "name": "Minimal",
-    "slug": "minimal"
-  },
-  {
-    "id": 9,
-    "name": "Steampunk",
-    "slug": "steampunk"
+    "id": 14,
+    "name": "Historical Fiction",
+    "slug": "historical-fiction"
   }
 ]
