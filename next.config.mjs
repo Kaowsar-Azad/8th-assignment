@@ -10,7 +10,7 @@ const nextConfig = {
         hostname: 'source.unsplash.com'
       },
       {
-        hostname: 'i.pinimg.com'
+        hostname: 'i.ibb.co.com'
       },
       {
         hostname: '**covers.openlibrary.org'

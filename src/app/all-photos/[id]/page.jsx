@@ -31,7 +31,7 @@ const page = async({params}) => {
                   {photo.title}
                 </h1>
                 <p className="text-slate-300 text-base font-medium">
-                  {photo.author} • {photo.year}
+                  {photo.author}
                 </p>
               </div>
 
@@ -39,7 +39,7 @@ const page = async({params}) => {
                 <div className="bg-slate-900/60 backdrop-blur-sm p-6 rounded-2xl border border-slate-600/50">
                   <h2 className="font-semibold text-white text-sm uppercase tracking-wider mb-3">Description</h2>
                   <p className="text-slate-300 text-sm leading-relaxed">
-                    {photo.prompt}
+                    {photo.description}
                   </p>
                 </div>
 
@@ -59,12 +59,23 @@ const page = async({params}) => {
 
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-slate-900/60 backdrop-blur-sm p-5 rounded-2xl text-center border border-slate-600/50">
-                    <p className="text-slate-400 text-xs uppercase tracking-wider mb-2">Duration</p>
-                    <p className="font-bold text-white text-xl">14 Days</p>
+                    <p className="text-slate-400 text-xs uppercase tracking-wider mb-2">Published</p>
+                    <p className="font-bold text-white text-sm">{new Date(photo.publishedDate).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</p>
                   </div>
                   <div className="bg-slate-900/60 backdrop-blur-sm p-5 rounded-2xl text-center border border-slate-600/50">
                     <p className="text-slate-400 text-xs uppercase tracking-wider mb-2">Format</p>
-                    <p className="font-bold text-white text-xl">Digital / PDF</p>
+                    <p className="font-bold text-white text-sm">Digital / PDF</p>
+                  </div>
+                </div>
+
+                <div className="bg-slate-900/60 backdrop-blur-sm p-6 rounded-2xl border border-slate-600/50">
+                  <p className="text-slate-400 text-xs uppercase tracking-wider mb-3">Tags</p>
+                  <div className="flex flex-wrap gap-2">
+                    {photo.tags.map((tag, index) => (
+                      <span key={index} className="bg-gradient-to-r from-purple-600/40 to-purple-500/40 text-purple-200 px-3 py-1 rounded-full text-xs font-medium border border-purple-500/30">
+                        {tag}
+                      </span>
+                    ))}
                   </div>
                 </div>
               </div>

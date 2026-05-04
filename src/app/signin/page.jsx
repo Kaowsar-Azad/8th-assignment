@@ -102,7 +102,8 @@ const signingoogle = async () => {
         </div>
       </Form>
       <p className="text-center">or</p>
-      <button onClick={signingoogle} variant="outline" className={'w-full , flex , items-center , gap-1 ,  justify-center , border , rounded-2xl , py-1.5'}><GrGoogle/>sign in with google</button>
+      <button onClick={signingoogle} variant="outline" className={'w-full , flex , items-center , gap-1 ,  justify-center , border , rounded-2xl , py-1.5'}><GrGoogle/>sign in with google
+      </button>
     </Card>
   );
 }

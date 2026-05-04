@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/conponents/Navber";
 import Footer from "@/conponents/Footer";
 
+
 const OutfitFont = Outfit({
   subsets: ["latin"],
 });
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
         <main className="max-w-7xl mx-auto">
           {children}
         </main>
+        
         <Footer></Footer>
         </body>
     </html>

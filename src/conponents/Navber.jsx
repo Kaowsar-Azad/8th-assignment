@@ -19,14 +19,16 @@ const Navbar = () => {
       <nav className=" flex justify-between items-center  py-3 max-w-7xl mx-auto w-full">
         <div className="flex gap-2 items-center">
           <Image
-            src={"/logo.png"}
+            src={"https://i.ibb.co.com/ksQbLy6K/A-simple-modern-app-icon-202605041715.jpg"}
             alt="logo"
             loading="eager"
-            width={30}
+            width={40}
             height={30}
-            className="object-cover h-auto w-auto"
+            className="object-cover rounded-2xl h-auto w-auto"
           />
-          <h3 className="font-black text-lg">pixgen.</h3>
+           <span className="text-xl font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent bg-clip-text ">
+                BookBound
+              </span>
         </div>
 
         <ul className="flex items-center gap-5 text-sm">
@@ -36,6 +38,7 @@ const Navbar = () => {
           <li>
             <Link href={"/all-photos"}>All Photos</Link>
           </li>
+
           <li>
             <Link href={"/profile"}>Profile</Link>
           </li>
