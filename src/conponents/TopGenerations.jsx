@@ -4,7 +4,7 @@ import PhotoCard from './PhotoCard'
 const TopGenerations = async() => {
     const res = await fetch('https://pixgen-project-x2ts.vercel.app/data.json')
     const photos = await  res.json()
-    const topPhotos = photos.slice(0, 8)
+    const topPhotos = photos.slice(0, 4)
   return (
     <div>
         <h1 className="text-2xl font-bold my-5"> TopGenerations</h1>

@@ -13,7 +13,7 @@ const nextConfig = {
         hostname: 'i.pinimg.com'
       },
       {
-        hostname: '**.ftcdn.net'
+        hostname: '**covers.openlibrary.org'
       },
     ]
   }
