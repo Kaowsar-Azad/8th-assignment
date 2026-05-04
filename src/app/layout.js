@@ -2,6 +2,8 @@ import { Outfit} from "next/font/google";
 import "./globals.css";
 import Navbar from "@/conponents/Navber";
 import Footer from "@/conponents/Footer";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 
 const OutfitFont = Outfit({
@@ -34,6 +36,7 @@ export default function RootLayout({ children }) {
         </main>
         
         <Footer></Footer>
+        <ToastContainer position="top-center" autoClose={3000} />
         </body>
     </html>
   );
