@@ -13,6 +13,8 @@ import {
 } from "@heroui/react";
 import { useRouter } from "next/navigation";
 import { GrGoogle } from "react-icons/gr";
+import { toast } from "react-toastify";
+import Link from "next/link";
 
 
 
@@ -29,10 +31,12 @@ export default function SignUpPage() {
   const {data , error} = await authClient.signUp.email({
     name , email , image , password
   })
-  console.log({data , error})
+  
    if(!error){
     await authClient.signOut()
     router.push('/signin')
+   } else {
+    toast.error(error.message || "Failed to register. Please try again.");
    }
 
 
@@ -116,7 +120,12 @@ export default function SignUpPage() {
           </Button>
         </div>
       </Form>
-      <p className="text-center">or</p>
+      
+      <p className="text-center mt-4 text-sm">
+        Already have an account? <Link href="/signin" className="text-purple-600 hover:underline">Login here</Link>
+      </p>
+
+      <p className="text-center my-2">or</p>
             <button onClick={signingoogle} variant="outline" className={'w-full , flex , items-center , gap-1 ,  justify-center , border , rounded-2xl , py-1.5'}><GrGoogle/>sign in with google
             </button>
     </Card>

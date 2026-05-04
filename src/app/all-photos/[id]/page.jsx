@@ -83,7 +83,7 @@ const Page = ({ params }) => {
                     <div>
                       <p className="text-slate-400 text-xs uppercase tracking-wider mb-2">Availability Status</p>
                       <p className="text-green-400 font-bold text-lg">
-                        {photo.copies} Copies Left
+                        {photo.available_quantity} Copies Left
                       </p>
                     </div>
                     <button

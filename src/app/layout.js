@@ -21,6 +21,12 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${OutfitFont.className}  h-full antialiased`}
     >
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+      </head>
       <body >
         <Navbar></Navbar>
         <main className="max-w-7xl mx-auto px-4 md:px-0">
