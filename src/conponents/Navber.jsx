@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <div className="border-b px-2">
-      <nav className=" flex justify-between items-center  py-3 max-w-7xl mx-auto w-full">
+      <nav className="flex flex-col md:flex-row justify-between items-center py-3 max-w-7xl mx-auto w-full gap-4 md:gap-0">
         <div className="flex gap-2 items-center">
           <Image
             src={"https://i.ibb.co.com/ksQbLy6K/A-simple-modern-app-icon-202605041715.jpg"}
@@ -26,12 +26,12 @@ const Navbar = () => {
             height={30}
             className="object-cover rounded-2xl h-auto w-auto"
           />
-           <span className="text-xl font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent bg-clip-text ">
+           <span className="text-xl font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
                 BookBound
               </span>
         </div>
 
-        <ul className="flex items-center gap-5 text-sm">
+        <ul className="flex items-center gap-5 text-sm flex-wrap justify-center">
           <li>
             <Link href={"/"}>Home</Link>
           </li>
@@ -46,7 +46,7 @@ const Navbar = () => {
 
         <div className="flex gap-5">
           { !user && (
-            <ul className="flex items-center  text-sm gap-5">
+            <ul className="flex items-center text-sm gap-5">
             <li>
               <Link href={"/signup"}>SignUp</Link>
             </li>
@@ -59,7 +59,7 @@ const Navbar = () => {
           
           {
             user && (
-             <div className="flex , gap-1.5">
+             <div className="flex gap-1.5 items-center">
                       <Avatar size="sm">
         <Avatar.Image
           alt="{user?.name} hre image"
@@ -68,7 +68,7 @@ const Navbar = () => {
         />
         <Avatar.Fallback>{user?.name[0]}</Avatar.Fallback>
       </Avatar>
-      <Button onClick={handelsignout} variant="danger">sign out</Button>
+      <Button onClick={handelsignout} variant="danger" size="sm">sign out</Button>
              </div>
             )
           }

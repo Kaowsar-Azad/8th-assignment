@@ -10,7 +10,7 @@ const TopGenerations = async() => {
         <h1 className="text-2xl font-bold my-5"> TopGenerations</h1>
        
 
-       <div  className="grid grid-cols-4 gap-5">
+       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5">
          {
             topPhotos.map(photo => <PhotoCard key={photo.id}  photo={photo}></PhotoCard>)
          }
