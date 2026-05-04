@@ -1,10 +1,11 @@
-import React from 'react'
-import PhotoCard from './PhotoCard'
+import fs from 'fs';
+import path from 'path';
+import PhotoCard from './PhotoCard';
 
 const TopGenerations = async() => {
-    const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
-    const res = await fetch(`${baseUrl}/data.json`, { cache: 'no-store' })
-    const photos = await  res.json()
+    const filePath = path.join(process.cwd(), 'public', 'data.json');
+    const fileData = fs.readFileSync(filePath, 'utf8');
+    const photos = JSON.parse(fileData);
     const topPhotos = photos.slice(0, 4)
   return (
     <div>

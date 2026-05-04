@@ -6,11 +6,6 @@ import PhotoCard from "@/conponents/PhotoCard";
 
 const AllPhotosPage = async () => {
     
-    const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
-    const res = await fetch(`${baseUrl}/data.json`, { cache: 'no-store' });
-    const photos = await res.json();
-    
-    
     return (
         <div>
 

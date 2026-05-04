@@ -120,10 +120,6 @@ export default function SignUpPage() {
           </Button>
         </div>
       </Form>
-      
-      <p className="text-center mt-4 text-sm">
-        Already have an account? <Link href="/signin" className="text-purple-600 hover:underline">Login here</Link>
-      </p>
 
       <p className="text-center my-2">or</p>
             <button onClick={signingoogle} variant="outline" className={'w-full , flex , items-center , gap-1 ,  justify-center , border , rounded-2xl , py-1.5'}><GrGoogle/>sign in with google
